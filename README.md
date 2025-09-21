@@ -1,20 +1,73 @@
-# Automated OMR Evaluation & Scoring System
+Automated OMR Evaluation & Scoring System
 
-## Deployment
+An AI-powered web application that evaluates OMR sheets automatically, applies positive and negative marking, and generates instant scores and analytics.
 
-My project is live at:
+🚀 Deployment
 
-https://ezomr.vercel.app/
+Live Application: https://ezomr.vercel.app/
 
-## Build your basic prototype for your app
+Prototype Workspace: https://v0.app/chat/projects/YV0rVkXyX7k
 
-Continue building your app on:
+📝 Features
 
-**[https://v0.app/chat/projects/YV0rVkXyX7k](https://v0.app/chat/projects/YV0rVkXyX7k)**
+OMR Sheet Upload – Upload scanned or captured OMR sheets for evaluation.
 
-## How It Works
+Answer Key Upload – Upload or configure the correct answers as the answer key.
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Automated Evaluation – Uses computer vision to detect responses and match them with the answer key.
+
+Positive & Negative Marking – Customizable marking scheme to handle multiple exam patterns.
+
+Instant Scoring & Analytics – Displays score, accuracy, and performance metrics immediately.
+
+User-Friendly Interface – Simple, intuitive UI built with Streamlit.
+
+⚙️ How It Works
+
+Upload your OMR sheet image and the answer key.
+
+Configure positive and negative marks per question.
+
+Run Evaluation – The system automatically scans, grades, and scores the sheet.
+
+View Results – Get instant feedback with total marks and analytics.
+
+🛠️ Tech Stack
+
+Frontend / App: Streamlit
+
+Backend: Python, OpenCV, NumPy, PIL
+
+Deployment: Vercel / Streamlit Cloud
+
+Version Control: GitHub
+
+📦 Installation (Local Development)
+# Clone the repo
+git clone https://github.com/yourusername/your-repo.git
+cd your-repo
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py
+
+📄 Future Enhancements
+
+Exportable PDF reports.
+
+Multi-sheet batch evaluation.
+
+Advanced analytics dashboard.
+
+🙌 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you’d like to change.
+
+REQUIREMENTS
+streamlit
+opencv-python
+numpy
+pillow
+pandas
