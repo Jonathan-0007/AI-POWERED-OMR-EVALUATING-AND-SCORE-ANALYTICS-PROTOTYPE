@@ -4,7 +4,7 @@
 
 My project is live at:
 
-**[https://vercel.com/itzmusicrisingup-2883s-projects/v0-code-to-app](https://vercel.com/itzmusicrisingup-2883s-projects/v0-code-to-app)**
+https://ezomr.vercel.app/
 
 ## Build your basic prototype for your app
 
